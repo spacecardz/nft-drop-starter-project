@@ -30,16 +30,17 @@ const App = () => {
 
 export default App;
 
-const checkIfWalletIsConnected = async () => {
+const checkIfWalletIsConnected = async ( ) => {
   try {
     const { solana } = window;
 
     if (solana) {
       if (solana.isPhantom) {
-        console.log('Phantom wallet found!');
+        console.log(LTUjciTMbMgYCxu9KHz564HKtBGRuQErRAeourK529v;
       }
     } else {
-      alert('Solana object not found! Get a Phantom Wallet 👻');
+      alert(LTUjciTMbMgYCxu9KHz564HKtBGRuQErRAeourK529v;
+     
     }
   } catch (error) {
     console.error(error);
@@ -51,7 +52,7 @@ useEffect(() => {
     await checkIfWalletIsConnected();
   };
   window.addEventListener('load', onLoad);
-  return () => window.removeEventListener('load', onLoad);
+  return () => window.removeEventListener( );
 }, []);
 const checkIfWalletIsConnected = async () => {
   try {
@@ -59,7 +60,7 @@ const checkIfWalletIsConnected = async () => {
 
     if (solana) {
       if (solana.isPhantom) {
-        console.log('Phantom wallet found!');
+        console.log(LTUjciTMbMgYCxu9KHz564HKtBGRuQErRAeourK529v;
 
         /*
          * The solana object gives us a function that will allow us to connect
